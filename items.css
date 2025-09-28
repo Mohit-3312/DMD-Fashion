@@ -1,0 +1,152 @@
+.box{
+    height: 2600px;
+    width: 100%;
+    background-color: #D9E4EC;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.filter{
+    width: 25%;
+    background-color: white;
+    height: 800px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.item-sell{
+    width: 67%;
+    height: 2450px;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 50px;
+    overflow-y: auto;
+}
+.box p{
+    background-color: white;
+}
+.box h3{
+    background-color: white;
+    margin-bottom: 9px;
+}
+
+
+.price-box{
+    display: flex; 
+}
+.price-box p{
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    margin-left: 20px;
+    display: inline-block;
+    width: 110px;
+    
+}
+
+ul h3{
+    margin-bottom: 10px;
+}
+.filter-box{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.sell-box{
+    height: 450px;
+    width: 95%;
+    background-color: #f3e2aa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size:20px ;
+}
+.sell-box:hover{
+    border: 3px solid orange;
+}
+
+.sell-box p{
+    background-color: #f3e2aa;
+}
+.sell-box img{
+    margin-left: 20px;
+    height: 275px;
+    width: 250px;
+}
+.sell-box img:hover{
+    transform: scale(1.2);
+}
+.sell-box1{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.sell-box2{
+    display: flex;
+    margin-left: 65%;
+}
+.sell-price{
+    font-size: 40px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.sell-box .cart-buy{
+    height: 40px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.size-button {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.size-button:hover{
+    box-shadow: 0 0 2px 2px orange;
+
+}
+.size-button.active {
+    background-color: orange;
+    color: white;
+}
+.cart-buy:hover{
+    background-color: orange;
+}
+
+.sell-box h3{
+    margin-top: 30px;
+    background-color: #f3e2aa;
+}
+
+.box1{
+    margin-left: 20px;
+}
+label:hover{
+    border: 2px solid orange
+}
+.back{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items->Watches</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="items.css">
+</head>
+<body>
+    
+    <!-- NAVIGATION BAR -->
+
+
+  <!-- DMD LOGO -->
+  <div class="nav">
+    <img src="pictures/DMD-LOGO.jpg" alt="DMD LOGO" class="logo">
+
+
+
+<!-- Search Bar  -->
+    <div class="menu">
+      <div class="search">
+        <input type="search" class="nav-search" placeholder="search">
+      </div>
+      
+<!-- Navigation bar enu buttons -->
+
+<div class="nav-menu">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <a href="#" class="dropdown-toggle">Items</a>
+    <div class="dropdown-menu">
+     <a href="hoodie.html">Hoodie</a>
+      <a href="shirt.html">Shirts & Tshirt</a>
+      <a href="jeans.html">Jeans</a>
+      <a href="shoes.html">shoes</a>
+     
+      <a href="watches.html">Watches</a>
+      <a href="sunglasses.html">Sun glasses</a>
+      
+    </div>
+  </div>
+  <a href="#">Feedback</a>
+</div>
+
+</div>
+
+
+<!-- profile & cart logos -->
+
+    <div class="last">
+      <a href="shop-cart.html"><img src="pictures/cart.png" alt="cart" srcset="" class="profile-logo"></a>
+      <a href="#"><img src="pictures/profile.png" alt="profile" srcset="" class="profile-logo"></a>
+    </div>
+  </div>
+
+  <div class="box">
+
+    <div class="filter">
+      <h1 style="margin-left: 50px; font-size: 50px;">Filter</h1>
+      <div class="filter-box">
+      <ul>
+        <h3>&#10022 Size:</h3>
+        <li><label><input type="radio" id="size" name="size">  Small</label></li>
+        <li><label><input type="radio" id="size" name="size">  Medium</label></li>
+        <li><label><input type="radio" id="size" name="size">  Large</label></li>
+
+      </ul>
+    </div>
+
+
+    <div class="filter-box">
+      <ul>
+      <div class="price">
+
+        <h3>&#10022 Price:</h3>
+
+          <div class="price-box">
+            <p>200</p>
+            <input type="range" id="priceRange" min="100" max="10000" step="10" value="500">
+            <p>9899</p>
+          </div>
+
+      </div>
+    </ul>
+    </div>
+
+
+
+    <div class="filter-box">
+      <ul>
+        <h3>&#10022 Discount:</h3>
+        <li><label><input type="radio" name="discount" id="disocunt">  10% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  20% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  30% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  50% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  75% Off</label></li>
+      </ul>
+
+      
+    <div class="filter-box">
+      <ul>
+        <h3>&#10022 Colors:</h3>
+        <li><label><input type="color">  Custom  </label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Red</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Blue</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Black</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Green</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Purple</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Orange</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Yellow</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  White</label></li>
+        <li></li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+</div>
+ 
+
+  
+    <div class="item-sell">
+
+        <div class="sell-box">
+          <h2>Grey Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch12.png" alt="watches">
+            <div class="box1">
+              <p>Fastrack Analog Watch</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                  
+                  </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>999</strike> / 599</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+        <div class="sell-box">
+          <h2>Black Steal Watch </h2>
+          <div class="sell-box1">
+            <img src="watch/watch2.png" alt="watch">
+            <div class="box1">
+              <p>Fastrack Dezire FX1 Luxury Metal  Watch, 1.38” UltraVU HD Display, Functional Crown, SingleSync BT Calling,  100+ IP68, Upto 5 Day Battery (Black)</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>1999</strike> / 899</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+        <div class="sell-box">
+          <h2>Smart Watch </h2>
+          <div class="sell-box1">
+            <img src="watch/watch3.jpg" alt="watch">
+            <div class="box1">
+              <p>Fire-Boltt 4G Pro Volte Calling Smart Watch- 2.02” TFT Display, 4G Nano-SIM GPS, Health Suite, Sports Modes, 400mAh Battery (Gray)</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>8900</strike> / 2999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch </h2>
+          <div class="sell-box1">
+            <img src="watch/watch4.jpg" alt="watch">
+            <div class="box1">
+              <p>Fire-Boltt Dominian 36.3mm (1.43 inch) AMOLED Display, Stainless Steel Design, 466 * 466 px Resolution, Bluetooth Calling, Multiple Sports Modes, Health Mode, IP67, Weather Updates (Golld Black)</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>6999</strike> / 2999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Smart Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch5.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Noise ColorFit Pro 5 Max 1.96" AMOLED Display Smart Watch, BT Calling, Post Training Workout Analysis, VO2 Max, Rapid Health, 5X Faster Data Transfer - Space Blue</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button> 
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>7999</strike> / 3990</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch6.jpg" alt="watch">
+            <div class="box1">
+              <p>OLEVS Watch for Men Diamond Business Dress Analog Quartz Stainless Steel Waterproof Luminous Date Two Tone Luxury Casual Wrist Watch</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>5899</strike> / 3999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch </h2>
+          <div class="sell-box1">
+            <img src="watch/watch7.png" alt="Watch">
+            <div class="box1">
+              <p>Smart Watch 1.46" AMOLED Display, 3-Layered Casing, Special Boot-up Logo, Serialization, Emergency SOS Tech, Neeraj Autograph - India Blue </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>                 
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>5999</strike> / 2100</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Elite Edition Smartwatch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch8.png" alt="Watch">
+            <div class="box1">
+              <p> Elite Edition Smartwatch with 1.46" Super AMOLED Display, Stainless Steel Finish Metallic Straps, 4-Stage Sleep Tracker, Smart Watch for Men</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>6899</strike> / 4999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch9.png" alt="Watch">
+            <div class="box1">
+              <p> Boat Enigma Radiant Men's Watch </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                  <button class="size-button" onclick="toggleButton(this)">s</button> 
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>2899</strike> / 1299</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Smart Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch10.png" alt="watch">
+            <div class="box1">
+              <p> oise Pro 6 Smart Watch:Intelligent AI, Endless AI Watch Faces, AI Companion, 1.85” AMOLED, EN2 Processor, Nebula UI 2.0, Emergency SOS, Compatible with iOS & Android(Vineyard Weave) </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>3999</strike> / 1999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Smart watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch11.png" alt="hoodie">
+            <div class="box1">
+              <p> Noise Pro 5 Smart Watch with 1.85" AMOLED Display, BT Calling, New DIY Watch Faces, Ultra Personalization with Smart Dock, Productivity Suite, 100 Sports Modes and More - (Elite Black </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>4899</strike> / 2699</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/1.png" alt="watch">
+            <div class="box1">
+              <p> OLEVS Watches for Men Diamond Date Day Calendar Black Wrist Watches Quartz Analog Business Stainless Steel Two Tone Waterproof Luminous Men Watch </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+           </div>
+          <h2 class="sell-price">&#8377 <strike>3999</strike> / 1299</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Watch</h2>
+          <div class="sell-box1">
+            <img src="watch/watch13.png" alt="hoodie">
+            <div class="box1">
+              <p> Carlington Resin Endurance Analog-Digital Sports Watch for Men and Boys - CT9105 Series One </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                   
+                  <button class="size-button" onclick="toggleButton(this)">s</button>
+                  <button class="size-button" onclick="toggleButton(this)">M</button>
+                  <button class="size-button" onclick="toggleButton(this)">L</button>
+                   </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>1899</strike> / 999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+  <hr>
+
+  <div class="back" id="top">
+      <a id="top">back top top</a>
+    </div>
+  <!-- footer / description & about us -->
+
+  <footer>
+
+
+
+
+    <div class="footer-container">
+      <div class="footer-section about-us">
+        <h4>About Us</h4>
+        <p>We are a dynamic team dedicated to providing the best user experience through innovative design and functionality. Our goal is to create a website that is both visually appealing and easy to navigate.</p>
+      </div>
+      
+      <div class="footer-section creator-designer">
+        <h4>Creator & Designer</h4>
+        <p>Website created and designed by Mohit, Dhruvit & Divyesh. With a passion for web development and a keen eye for design, I strive to deliver websites that not only look great but also provide a seamless user experience.</p>
+      </div>
+      
+      <div class="footer-section links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section social-media">
+        <h4>Follow Us</h4>
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    
+
+  </footer>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 DMD FASHION. All rights reserved.</p>
+  </div>
+
+
+
+
+  <script src="items.js"></script>
+</body>
+</html>
+</body>
+
+        

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items->Jeans</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="items.css">
+</head>
+<body>
+    
+    <!-- NAVIGATION BAR -->
+
+
+  <!-- DMD LOGO -->
+  <div class="nav">
+    <img src="pictures/DMD-LOGO.jpg" alt="DMD LOGO" class="logo">
+
+
+
+<!-- Search Bar  -->
+    <div class="menu">
+      <div class="search">
+        <input type="search" class="nav-search" placeholder="search">
+      </div>
+      
+<!-- Navigation bar enu buttons -->
+
+<div class="nav-menu">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <a href="#" class="dropdown-toggle">Items</a>
+    <div class="dropdown-menu">
+     <a href="hoodie.html">Hoodie</a>
+      <a href="shirt.html">Shirts & Tshirt</a>
+      <a href="jeans.html">Jeans</a>
+      <a href="shoes.html">shoes</a>
+     
+      <a href="watches.html">Watches</a>
+      <a href="sunglasses.html">Sun glasses</a>
+      
+    </div>
+  </div>
+  <a href="feedback.html">Feedback</a>
+</div>
+
+</div>
+
+
+<!-- profile & cart logos -->
+
+    <div class="last">
+      <a href="shop-cart.html"><img src="pictures/cart.png" alt="cart" srcset="" class="profile-logo"></a>
+        <a href="#"><img src="pictures/profile.png" alt="profile" srcset="" class="profile-logo"></a>
+    </div>
+  </div>
+
+  <div class="box">
+
+    <div class="filter">
+      <h1 style="margin-left: 50px; font-size: 50px;">Filter</h1>
+      <div class="filter-box">
+      <ul>
+        <h3>&#10022 Size:</h3>
+        <li><label><input type="radio" id="size" name="size"> 40</label></li>
+        <li><label><input type="radio" id="size" name="size"> 43</label></li>
+        <li><label><input type="radio" id="size" name="size"> 46</label></li>
+        <li><label><input type="radio" id="size" name="size"> 50</label></li>
+        <li><label><input type="radio" id="size" name="size"> 54</label></li>
+        <li><label><input type="radio" id="size" name="size"> 60</label></li>
+      </ul>
+    </div>
+
+
+    <div class="filter-box">
+      <ul>
+      <div class="price">
+
+        <h3>&#10022 Price:</h3>
+
+          <div class="price-box">
+            <p>200</p>
+            <input type="range" id="priceRange" min="100" max="10000" step="10" value="500">
+            <p>3999</p>
+          </div>
+
+      </div>
+    </ul>
+    </div>
+
+
+
+    <div class="filter-box">
+      <ul>
+        <h3>&#10022 Discount:</h3>
+        <li><label><input type="radio" name="discount" id="disocunt">  10% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  20% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  30% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  50% Off</label></li>
+        <li><label><input type="radio" name="discount" id="disocunt">  75% Off</label></li>
+      </ul>
+
+      
+    <div class="filter-box">
+      <ul>
+        <h3>&#10022 Colors:</h3>
+        <li><label><input type="color">  Custom  </label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Red</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Blue</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Black</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Green</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Purple</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Orange</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  Yellow</label></li>
+        <li><label><input type="checkbox" name="color" id="color">  White</label></li>
+        <li></li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+</div>
+ 
+
+  
+    <div class="item-sell">
+
+        <div class="sell-box">
+          <h2>Slime dark blue Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/jeans3.jpg" alt="hoodie">
+            <div class="box1">
+              <p>A modern silm with room to move, the 511 slim fit stretch jeans are a classic, you can wear with anything Complete your casual wardrobe with a splash </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>2300</strike> / 999</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+        <div class="sell-box">
+          <h2>Slime silver colour jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/jeans4.jpg" alt="hoodie">
+            <div class="box1">
+              <p>A modern silm with room to move, the 511 slim fit stretch jeans are a classic, you can wear with anything Complete your casual wardrobe with a splash .</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>4500</strike> / 1599</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+        <div class="sell-box">
+          <h2>White and grey design jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/jeans5.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Ben Martin Jeans for Men || Bootcut Jeans for Men || Wide Leg Jeans Men || Bell Bottom Jeans for Men</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>2599</strike> / 899</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Grey colour strechable jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/jeans6.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Ben Martin Men's Regular Fit Stretchable 32 Size Grey Cotton Denim Jeans Pant for Men</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>3000</strike> / 1599</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Allen Solly men Slim Fit Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Allen Solly men Slim Fit Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Allen solly jeans black cotton skinny fit jeans</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>6799</strike> / 2499</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Carrot Fit Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Carrot Fit Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Ben Martin Men Stretchable Tapered Fit Carrot High Rise Jeans Grey </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>999</strike> / 799</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Fandom Collection Regular Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Fandom Collection Regular Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Men's Dress Pants </p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>3299</strike> / 1299</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>H&M Men's Loose Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/H&M Men's Loose Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Featuring a loose leg shape and a slightly dropped crotch. The low waist and the soft non-stretch fabric gives this fit that perfectly effortless look.</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>5599</strike> / 2899</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Men's Blue Slim fit Stretch Regular Jeans </h2>
+          <div class="sell-box1">
+            <img src="jeans/Men's Blue Slim fit Stretch Regular Jeans & Pant, jeans for men, mens jeans pant, mens jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Men's Blue Slim fit Stretch Regular Jeans & Pant, jeans for men, mens jeans pant, mens jeans</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>4299</strike> / 1399</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Relaxed Fit Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Relaxed Fit Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Relaxed fit pants are pants that feature a straight fit from the waist down and do not hug the body at all.</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>7099</strike> / 6599</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>SLIM FIT JEANS</h2>
+          <div class="sell-box1">
+            <img src="jeans/SLIM FIT JEANS.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Men's Blue Slim fit Stretch Regular Jeans & Pant, jeans for men, mens jeans pant, mens jeans</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>4599</strike> / 3299</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Snitch Men's Black Baggy Fit Jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Snitch Men's Black Baggy Fit Jeans Casual Wear College Wear  Street Wear.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Snitch Men's Black Baggy Fit Jeans Casual Wear College Wear  Street Wear</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>5999</strike> / 2899</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+        <div class="sell-box">
+          <h2>Urbano Slim Fit jeans</h2>
+          <div class="sell-box1">
+            <img src="jeans/Urbano Slim Fit Stretchable Jogger Jeans.jpg" alt="hoodie">
+            <div class="box1">
+              <p>Urbano Slim Fit Stretchable Jogger Jeans</p>  
+              <div class="sell-size">
+                <h3>Size</h3>
+                <div id="size-buttons">
+                  
+                   <button class="size-button" onclick="toggleButton(this)">40</button>
+                   <button class="size-button" onclick="toggleButton(this)">43</button>
+                   <button class="size-button" onclick="toggleButton(this)">46</button>
+                   <button class="size-button" onclick="toggleButton(this)">50</button>
+                   <button class="size-button" onclick="toggleButton(this)">54</button>
+                   <button class="size-button" onclick="toggleButton(this)">60</button>
+              </div>
+                <h3>Color</h3>
+                <label>Red  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Blue  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Green  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Yellow  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Orange  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>Black  <input type="checkbox" name="sell-color" id="sell-color"></label>
+                <label>White  <input type="checkbox" name="sell-color" id="sell-color"></label>
+              </div>
+            </div>
+            <div class="box2"></div> 
+          </div>
+          <h2 class="sell-price">&#8377 <strike>1399</strike> / 1199</h2>
+          <div class="sell-box2">           
+            <button class="cart-buy">Add to cart</button>
+            <button class="cart-buy">Buy</button>
+          </div>
+        </div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+  <hr>
+
+  <div class="back" id="top">
+      <a id="top">back top top</a>
+    </div>
+  <!-- footer / description & about us -->
+
+  <footer>
+
+
+
+
+    <div class="footer-container">
+      <div class="footer-section about-us">
+        <h4>About Us</h4>
+        <p>We are a dynamic team dedicated to providing the best user experience through innovative design and functionality. Our goal is to create a website that is both visually appealing and easy to navigate.</p>
+      </div>
+      
+      <div class="footer-section creator-designer">
+        <h4>Creator & Designer</h4>
+        <p>Website created and designed by Mohit, Dhruvit & Divyesh. With a passion for web development and a keen eye for design, I strive to deliver websites that not only look great but also provide a seamless user experience.</p>
+      </div>
+      
+      <div class="footer-section links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section social-media">
+        <h4>Follow Us</h4>
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    
+
+  </footer>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 DMD FASHION. All rights reserved.</p>
+  </div>
+
+
+
+
+  <script src="items.js"></script>
+</body>
+</html>
+</body>
+
+        

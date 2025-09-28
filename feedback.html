@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <style>
+        body{
+            background-color: orange;
+        }
+        form{
+            height: 450px;
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            margin-top: 50px;
+            border-radius:15px ;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .info{
+            height: 90%;
+            width: 40%;
+            box-shadow: 0 4px 4px rgba(255, 153, 0. 0.25);
+        }
+        .feedback{
+            height: 90%;
+            width: 50%;
+        }
+        .personal-info{
+            height: 25%;
+            width: 100%;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .personal-info input{
+            height: 40px;
+            width: 100%;
+            margin-top: 10px;
+           border: 1px solid orange;
+           border-radius: 5px;
+           box-shadow: 0 4px 4px rgba(255, 153, 0, 0.25);
+           outline: none;
+        }
+        .personal-info button{
+            height: 40px;
+            width: 50%;
+            border: 1px solid orange;
+           border-radius: 5px;
+           box-shadow: 0 4px 4px rgba(255, 153, 0, 0.25);
+           background-color: orange;
+           color: white;
+           font-size: 16px;
+        }
+        .personal-info button:hover{
+            cursor: pointer;
+            opacity: .7;
+        }
+        .feedback{
+            font-size: 25px;
+        }
+        .feedback textarea{
+            height: 80%;
+            margin-top: 20px;
+            width: 100%;
+            resize: none;
+            border: 1px solid orange;
+           border-radius: 5px;
+           box-shadow: 0 4px 4px rgba(255, 153, 0, 0.25);
+           outline: none;
+        }
+        input:focus, textarea:focus{
+            background-color: rgba(255, 153, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <form  action="index.html">
+        <div class="info">
+            <div class="personal-info">
+                <label>Name</label><br>
+                <input type="text" placeholder="Enter Name" required>
+            </div>
+            <div class="personal-info">
+                <label>E-mail</label><br>
+                <input type="email" placeholder="Enter Email" required>
+            </div>
+            <div class="personal-info">
+                <label>Phone</label><br>
+                <input type="text" placeholder="Enter Phone" required>
+            </div>
+            <div class="personal-info">
+                <button type="submit">Send</button>
+            </div>
+        </div>
+        <div class="feedback">
+            <label>Feedback</label><br>
+            <textarea placeholder="Start Typing..."></textarea>
+        </div>
+    </form>
+</body>
+</html>
